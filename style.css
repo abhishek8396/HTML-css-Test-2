@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#card1{
+    width: 100%;
+    height: 120px;
+    border: 1px solid rgb(238, 144, 21);
+    background-color: rgb(241, 168, 71);
+    
+}
+img{
+    padding: 10px;
+    float: left;
+}
+button{
+    float: right; 
+    position: relative;
+    top: 60px;
+    height: 30px; 
+    margin: 5px;
+    border-radius: 8px;
+    background-color: rgb(80, 80, 226);
+    color: white;
+}
+#card3{
+    background-image: url(./photo-1597200381847-30ec200eeb9a.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: safe;
+}
+h1{
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+p{
+    padding-left: 7px;
+    font-size: large;
+}
+.card{
+    width: 250px;
+    height: 100px;
+    border: 1px solid;
+    margin: 7px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+.card4{
+    background-color: green;
+    position: relative;
+    animation: card4 4s infinite linear;
+}
+@keyframes card4 {
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 400px;
+    }
+}
+.card5{
+    background-color: red;
+    position: relative;
+    animation: card5 3s infinite ease;
+    
+}
+@keyframes card5 {
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 400px;
+    }
+}
+.card6{
+    background-color: green;
+    position: relative;
+    animation: card6 4s infinite ease-in;
+}
+@keyframes card6 {
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 400px;
+    }
+}
+.card7{
+    background-color: red;
+    position: relative;
+    animation: card7 3s infinite ease-out;
+    
+}
+@keyframes card7 {
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 400px;
+    }
+}
+.card8{
+    background-color: green;
+    position: relative;
+    animation: card8 4s infinite ease-in-out;
+}
+@keyframes card8 {
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 400px;
+    }
+}
+@media screen and (max-width: 600px) and (min-width: 420px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #card1{
+        width: 100%;
+        height: 120px;
+        border: 1px solid rgb(238, 144, 21);
+        background-color: rgb(241, 168, 71);
+        
+    }
+    img{
+        padding: 10px;
+        float: left;
+    }
+    button{
+        float: right; 
+        position: relative;
+        top: 60px;
+        height: 30px; 
+        margin: 5px;
+        border-radius: 8px;
+        background-color: rgb(80, 80, 226);
+        color: white;
+        display: inline;
+    }
+    #card3{
+        background-image: url(./photo-1597200381847-30ec200eeb9a.jpg);
+        display: flex;
+        flex-direction: column;
+        justify-content: safe;
+    }
+    h1{
+        padding: 10px;
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+    p{
+        padding-left: 7px;
+        font-size: large;
+    }
+    .card{
+        width: 250px;
+        height: 100px;
+        border: 1px solid;
+        margin: 7px;
+        text-align: center;
+        font-size: xx-large;
+        font-family: sans-serif;
+    }
+    .card4{
+        background-color: green;
+        position: relative;
+        animation: card4 4s infinite linear;
+    }
+    @keyframes card4 {
+        0%{
+            left: 0px;
+        }
+        100%{
+            left: 400px;
+        }
+    }
+    .card5{
+        background-color: red;
+        position: relative;
+        animation: card5 3s infinite ease;
+        animation-delay: 1s;
+    }
+    @keyframes card5 {
+        0%{
+            left: 0px;
+        }
+        100%{
+            left: 400px;
+        }
+    }
+    .card6{
+        background-color: green;
+        position: relative;
+        animation: card6 4s infinite ease-in;
+    }
+    @keyframes card6 {
+        0%{
+            left: 0px;
+        }
+        100%{
+            left: 400px;
+        }
+    }
+    .card7{
+        background-color: red;
+        position: relative;
+        animation: card7 3s infinite ease-out;
+        animation-delay: 1s;
+    }
+    @keyframes card7 {
+        0%{
+            left: 0px;
+        }
+        100%{
+            left: 400px;
+        }
+    }
+    .card8{
+        background-color: green;
+        position: relative;
+        animation: card8 4s infinite ease-in-out;
+    }
+    @keyframes card8 {
+        0%{
+            left: 0px;
+        }
+        100%{
+            left: 400px;
+        }
+    }
+}
